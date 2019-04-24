@@ -1,0 +1,62 @@
+
+<html>
+
+<head>
+
+  <link rel="stylesheet" type="text/css" href="sound_style.css">
+
+  <script type="text/javascript">
+
+  
+
+    var audio = new Audio('audio_file.mp3');
+
+
+
+    function post()
+
+    {
+
+      // var tval=document.getElementById("mess").value;	
+
+      // var inhtml=document.getElementById("chat_div");
+
+      // inhtml.innerHTML=inhtml.innerHTML+"<p class='me'>Me:-"+tval+"</p>";
+
+      // inhtml.innerHTML=inhtml.innerHTML+"<p class='demo'>Demo:-Hi! how are you</p>";
+
+      audio.play();
+
+    }
+
+
+
+  </script>
+
+</head>
+
+
+
+<body>
+
+  
+
+  <h1>Play Sound On Notification Using JavaScript And CSS</h1>
+
+  <div id="chat_div">
+
+    <textarea id="mess">
+
+    </textarea>
+
+    <input type="button" value="Send" onclick="post();">
+
+    <p class="demo">Demo:-Post Something to test Notification Sound</p>
+
+  </div>
+
+
+
+</body>
+
+</html>

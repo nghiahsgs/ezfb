@@ -1,0 +1,15 @@
+*{margin: 0;padding: 0}
+img{
+    /* width: 150px; */
+    /* height: 150px; */
+    margin-right: 5px;
+    margin-bottom: 5px;
+    float: left;
+    text-align: center;
+    overflow: hidden;
+    }
+
+    img{
+        max-height: 150px;
+        display: inline;
+    }

@@ -1,0 +1,9 @@
+*{padding: 0;margin: 0}
+
+#mainNav .navbar-collapse .navbar-sidenav > .nav-item .sidenav-second-level > li > a {
+    padding: 5px;
+}
+
+#mainNav .navbar-collapse .navbar-sidenav > .nav-item > .nav-link {
+    padding: 5px;
+}

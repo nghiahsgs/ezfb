@@ -1,0 +1,101 @@
+body
+
+{
+
+	background-color:#0B243B;
+
+	text-align:center;
+
+	font-family:helvetica;
+
+}
+
+h1
+
+{
+
+	color:#819FF7;
+
+	margin-top:50px;
+
+	font-size:35px;
+
+}
+
+div
+
+{
+
+	width:300px;
+
+	height:300px;
+
+	border:5px solid green;
+
+	overflow:auto;
+
+	margin-top:50px;
+
+	text-align:left;
+
+}
+
+textarea
+
+{
+
+	width:80%;
+
+	margin:0px;
+
+	float:left;
+
+	height:40px;
+
+}
+
+input[type="button"]
+
+{
+
+margin:0px;
+
+width:20%;
+
+height:40px;
+
+border:none;
+
+background-color:blue;
+
+color:white;
+
+}
+
+p
+
+{
+
+	margin:0px;
+
+}
+
+.me
+
+{
+
+	padding:10px;
+
+	background-color:grey;
+
+}
+
+.demo
+
+{
+
+	padding:10px;
+
+	background-color:silver;
+
+}
